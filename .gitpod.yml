@@ -1,6 +1,6 @@
 # List the start up tasks. Learn more: https://www.gitpod.io/docs/configure/workspaces/tasks
 tasks:
-  - name:
+  - name: utils
     before: |
       sudo apt-get install tree
   - name: aws-cli
