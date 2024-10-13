@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 echo "== delete stack for s3 via CFN"
 
 STACK_NAME="cfn-s3-simple"

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudformation/index.html#cli-aws-cloudformation
 
 echo "== deploy s3 bucket via CFN"
 
