@@ -1,0 +1,11 @@
+#! /usr/bin/env bash
+echo "Delete all buckets"
+bucket="1"
+
+while [ -n "$bucket" ]; do
+    bucket=`aws s3api list-buckets | jq -r '.Buckets | sort_by(.CreationDate) | reverse | .[0] | .Name'`
+    echo "$bucket"
+    aws s3 rm s3://$bucket --recursive
+    aws s3api delete-bucket --bucket $bucket
+done
+    echo "All buckets deleted"

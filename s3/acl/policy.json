@@ -1,0 +1,16 @@
+{
+  "Grants": [
+    {
+      "Grantee": {
+        "DisplayName": "bijoy1",
+        "ID": "92258eb8eb5ab4d39e35fa5994bb07fbb5d28efcbb60279876c928cd808386c0",
+        "Type": "CanonicalUser"
+      },
+      "Permission": "FULL_CONTROL"
+    }
+  ],
+  "Owner": {
+    "DisplayName": "fcbayern",
+    "ID": "408c5495178e9c16e333749857852d1304f436a32ce16ea48426099069dbc677"
+  }
+}
