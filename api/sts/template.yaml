@@ -18,7 +18,7 @@ Resources:
         Statement:
           - Effect: Allow
             Principal:
-              AWS: "arn:aws:iam::905315126713:user/bijoy"
+              AWS: "arn:aws:iam::905315126713:user/sts-machine-user"
               # Service:
               #   - s3.amazonaws.com
             Action:

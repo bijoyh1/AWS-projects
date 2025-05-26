@@ -2,4 +2,4 @@
 aws cloudformation deploy \
  --template-file template.yaml \
  --stack-name sts-fun-bs \
- --capabilities  CAPABILITY_IAM \
+ --capabilities  CAPABILITY_IAM
